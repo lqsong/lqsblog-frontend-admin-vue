@@ -1,11 +1,11 @@
 # lqsblog-frontend-admin-vue
 
- 它（[Github](https://github.com/lqsong/lqsblog-frontend-admin-vue) 、 [Gitee](https://gitee.com/lqsong/lqsblog-frontend-admin-vue)）是一个ADMIN管理后台，它基于 [admin-element-vue](http://admin-element-vue.liqingsong.cc/)框架实现。
+ 它（[Github](https://github.com/lqsong/lqsblog-frontend-admin-vue) 、 [Gitee](https://gitee.com/lqsong/lqsblog-frontend-admin-vue)）是一个ADMIN管理后台，它基于 [admin-element-vue](http://admin-element-vue.liqingsong.cc/)框架的typescript.v2版本实现。
 
 
 ## 开发文档
 
-- [DEMO](http://lqsblog-demo.admin-element-vue.liqingsong.cc/)
+- [DEMO](http://lqsblog-demo-tsv2.admin-element-vue.liqingsong.cc/)
 
 - [lqsBlog官方文档](http://docs.liqingsong.cc/)。
 
@@ -86,56 +86,87 @@
 
 ## 自定义配置
 
-### 一、**(必须)** 复制 'vue.config.default.js' 重命名为 ' vue.config.js'
-查看 [配置参考](https://cli.vuejs.org/config/).
-
-### 二、**(必须)**  复制 'src/main.ext.default.js' 重命名为 'src/main.ext.js'
-满足不同用户、不同环境下，内容可自定义进行增删减
-
-### 三、**(建议)** 开发模式下，不要直接修改 '.env.development'
+### **(建议)** 本地或开发模式下，不要直接修改 '.env.development'
 复制 '.env.development' 重命名为 ' .env.development.local' , 修改对应的参数.
 
-### 四、**(建议)** 生产模式下，不要直接修改 '.env.production'
+### **(建议)** 生产模式下，不要直接修改 '.env.production'
 复制 '.env.production' 重命名为 ' .env.production.local' , 修改对应的参数.
 
+
 ## 项目设置
-```
-npm install
+
+### 一、Install dependencies,
+
+```bash
+$ yarn
 ```
 
-### 一、Compiles and hot-reloads for development
+or
+
 ```
-npm run serve
+$ npm install
 ```
 
-### 二、Compiles and minifies for production
-```
-npm run build
+> 推荐使用 yarn , **[yarn安装与常用命令](http://liqingsong.cc/article/detail/9)** 。
+
+### 二、Compiles and hot-reloads for development
+
+```bash
+$ yarn serve
 ```
 
-### 三、运行单元测试
+or
+
 ```
+$ npm run serve
+```
+
+
+### 三、Compiles and minifies for production
+
+```bash
+$ yarn build
+```
+or
+
+```
+$ npm run build
+```
+
+### 四、精简 svg icon
+
+```
+$ yarn svgo
+```
+
+or
+
+```
+$ npm run svgo
+```
+
+### 五、Run your unit tests
+```
+yarn test:unit
+
+#
+
 npm run test:unit
 ```
 
-### 四、运行端到端测试
+### 六、Lints and fixes files
 ```
-npm run test:e2e
-```
+yarn lint
 
-### 五、修复
-```
+#
+
 npm run lint
 ```
 
-### 六、精简 svg icon
-```
-npm run svgo
-```
 
 ## 捐赠
 
-如果你觉得这个项目帮助到了你，你可以请作者喝咖啡表示鼓励.
+如果你觉得这个项目帮助到了你，请帮助点击 Star，你也可以请作者喝咖啡表示鼓励.
 
 **ALIPAY**             |  **WECHAT**
 :-------------------------:|:-------------------------:

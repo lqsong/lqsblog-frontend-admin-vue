@@ -1,0 +1,99 @@
+@import './element-variables.scss';
+@import './variables.scss';
+@import './mixin.scss';
+
+#nprogress .bar {
+    background: var(--el-color-primary) !important;
+}
+
+
+/* 初始样式 */
+.main-conent {
+    margin: 24px;
+}
+.main-conent-minheight{
+    min-height: calc(100% - 86px - 32px);
+}
+.main-conent-bgFFF{
+    background-color: #FFFFFF;
+}
+
+.flex-wrap-wrap {
+    flex-wrap: wrap;
+}
+
+a {
+    color: #1890ff;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color .3s;
+}
+a:active,
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+a:active {
+    color: #096dd9;
+}
+a:hover {
+    color: #40a9ff;
+}
+
+.float-left{
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+
+.padding-t10 {
+    padding-top: 10px;
+}
+
+.margin-l5{
+    margin-left: 5px;
+}
+.margin-l10 {
+    margin-left: 10px;
+}
+.margin-t24 {
+    margin-top: 24px;
+}
+.margin-r5 {
+    margin-right: 5px;
+}
+
+.border-none {
+    border: none;
+}
+.border-solid-transparent{
+    border: solid 1px transparent;
+}
+
+.width-200 {
+    width: 200px !important;
+}
+.width-percent100 {
+    width: 100%  !important;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
