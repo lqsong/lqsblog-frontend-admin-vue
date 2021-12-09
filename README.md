@@ -1,6 +1,6 @@
 # lqsblog-frontend-admin-vue
 
- 它（[Github](https://github.com/lqsong/lqsblog-frontend-admin-vue) 、 [Gitee](https://gitee.com/lqsong/lqsblog-frontend-admin-vue)）是一个ADMIN管理后台，它基于 [admin-element-vue](http://admin-element-vue.liqingsong.cc/)框架实现。
+ 它（[Github](https://github.com/lqsong/lqsblog-frontend-admin-vue) 、 [Gitee](https://gitee.com/lqsong/lqsblog-frontend-admin-vue)）是一个ADMIN管理后台，它基于 [admin-element-vue](http://admin-element-vue.liqingsong.cc/)框架的javascript.v1版本实现。
 
 
 ## 开发文档
